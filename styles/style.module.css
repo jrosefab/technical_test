@@ -1,0 +1,48 @@
+.picture {
+  height: 300px;
+}
+
+.wrapper {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+.header {
+  background: lightblue;
+  padding: 2rem;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+.left-menu {
+  background: MediumSlateBlue;
+  grid-column: 1 / 2;
+}
+
+.main {
+  background: pink;
+  grid-column: 2 / 3;
+  padding: 1rem;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.right-someads {
+  background: MediumSlateBlue;
+  grid-column: 3 / 4;
+}
+
+.footer {
+  background: lightblue;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+.left-menu,
+.right-someads {
+  padding: 1rem;
+}
